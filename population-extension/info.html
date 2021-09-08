@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Population to Country</title>
+        <link rel='stylesheet' href='sketch.css' />
+
+    </head>
+    <body>
+        <section class='showcase'>
+            <header>
+               <div class='toggle'></div>
+               <div class='content'>
+                <p>Show me a place with<br> <input type='number' id='search' min='1'
+                    oninput="validity.valid||(value='');" onkeydown = 'search(this)' onblur='this.focus()' autofocus> 
+                    people</p>
+                </div>
+            </header>
+            <video src='spin.mp4' muted loop autoplay></video>
+            <div class='text'>
+                <h2>Data from <a href='https://www.census.gov/'>Census Bureau</a></h2>
+            </div>
+        </section>
+        <script src='background.js'></script>
+        <script src='place.js'></script>
+    </body>
+    
+    
+</html>
+
+
+
